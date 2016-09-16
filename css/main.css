@@ -2,10 +2,6 @@ body{
 	position: relative;
 	text-align: center;
 }
-.botones{
-	position: relative;
-	text-align: center;
-}
 .circulo {
   width: 300px;
   height: 300px;
@@ -15,18 +11,22 @@ body{
   background: #5cb85c;
   display: inline-block;
   margin: 20px;
+  border: 10px solid transparent;
 }
-.uno{
-	background:#6C1977;
+#uno{
+	background:#9055A2;
 }
-.dos{
+#dos{
 	background:#2C8789;
 }
-.tres{
-	background:#1AC189;
+#tres{
+	background:#cb7575;
 }
-.btn-group-vertical{
+.form{
 	width: 100px;
   height: 50px;
   display: inline-block;
+}
+#click, #cri, #super{
+  width: 250px;
 }
